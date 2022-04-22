@@ -15,7 +15,7 @@ language_dict = {
   'italian':'it',
   'galician':'gl',
   'basque':'eu'
-}
+} 
 try:
   lang = language_dict[f'{lang}']
   joke = pj.get_joke(language = lang , category = 'all')
